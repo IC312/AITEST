@@ -1,0 +1,16 @@
+{
+  "name": "hermes-proxy",
+  "version": "1.0.0",
+  "description": "Proxy API for Hermes-3-Llama-3.1-8B with Discord webhook logging",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
